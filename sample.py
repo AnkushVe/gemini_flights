@@ -8,7 +8,7 @@ from services.flight_manager import search_flights
 # Configure logging
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
-project = "gemini-flights-413013"
+project = "gemini-flights"
 vertexai.init(project=project)
 
 # Define Tool
